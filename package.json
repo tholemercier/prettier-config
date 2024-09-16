@@ -1,0 +1,30 @@
+{
+  "name": "@thlem/prettier-config",
+  "version": "0.0.1",
+  "description": "Shared prettier configurations",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tholemercier/prettier-config.git"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "license": "MIT",
+  "author": "Thomas Lemercier <tho.lemercier@gmail.com> (tholemercier)",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@thlem/eslint-config": "^0.15.0",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "8.8.0",
+    "prettier": "2.8.7"
+  },
+  "prettier": "./index.js"
+}
